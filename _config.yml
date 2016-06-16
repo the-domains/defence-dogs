@@ -1,14 +1,26 @@
-layout_spectrum: 0.9501429728697985
-typography_spectrum: 0.9449780031573027
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.5177239
 color:
-  brandStrength: 0.19321048795245588
-  lightness: 0.7783576701767743
   saturation: 0.7186177130788565
-  rhythmicContrast: 0.8005897449329495
+  brandStrength: 0.1932104879524559
+  lightness: 0.7783576701767743
   brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
+    - '#FFFFFF'
+    - '#191C21'
+    - '#868477'
+    - '#B5B6B1'
+    - '#265523'
+  rhythmicContrast: 0.8005897449329495
+layout_spectrum: 0.9029851
 name: Defence Dogs
